@@ -47,31 +47,42 @@ ul.menu {
     justify-content: center;
 }
 
-ul.menu a li {
-    padding: 50px 20px;
+ul.menu li {
+    padding: 50px 5px;
 }
 
-ul.header a {
-    margin: 50px 10px;
+ul.header li {
+    padding-top: 60px;
+}
+
+ul.header li button {
+    border: 0;
     text-transform: uppercase;
-    color: whitesmoke;
     font-size: 13px;
-}
+    color: whitesmoke;
+    padding: 0;
+    text-align: center;
 
-ul.header a li {
     background-color: cadetblue;
-    width: 90px;
-    padding: 10px 15px;
+    width: 120px;
+    padding: 10px 0px;
+    margin: 0px 5px;
     border-radius: 20px;
 }
 
-ul.header a.ativo li {
+ul.header li button.active {
     border-color: cadetblue;
     border-width: 2px;
     border-style: solid;
     background-color: transparent;
     color: cadetblue;
     padding: 8px 13px;
+    box-sizing: border-box;
+}
+
+ul.links li {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .languages, .frameworks {
@@ -83,4 +94,8 @@ ul.header a.ativo li {
 .languages img, .frameworks img {
     height: 30px;
     padding: 10px;
+}
+
+#about {
+    display: none;
 }
