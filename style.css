@@ -4,17 +4,20 @@
     --yellow-light: #fabd2f;
     --grey: #282828;
     --beige: #eddbb2;
+
+    --white: #FFFFFF;
+    --black: #000000;
 }
 
 * {
     padding: 0;
     margin: 0;
-    color: var(--grey);
+    color: var(--black);
     font-family: "Alan Sans", sans-serif;
 }
 
 ::selection {
-    background-color: var(--blue-light);
+    background-color: var(--yellow-light);
 }
 
 html, body {
@@ -33,7 +36,7 @@ a {
 }
 
 .background {
-    background-color: var(--blue-light);
+    background-color: var(--white);
     height: 100%;
     width: 100%;
     padding: 50px;
@@ -47,7 +50,7 @@ a {
     flex-direction: column;
     justify-content: baseline;
     text-align: center;
-    background-color: var(--beige);
+    background-color: var(--white);
     height: 100%;
     width: 100%;
     border-radius: 30px;
@@ -76,8 +79,8 @@ ul.header li button {
     padding: 0;
     text-align: center;
 
-    background-color: var(--purple-light);
-    color: var(--beige);
+    background-color: var(--black);
+    color: var(--white);
     width: 120px;
     padding: 10px 0px;
     margin: 0px 5px;
@@ -85,8 +88,8 @@ ul.header li button {
 }
 
 ul.header li button.active, ul.header li button:hover {
-    border-color: var(--purple-light);
-    color: var(--purple-light);
+    border-color: var(--black);
+    color: var(--black);
     border-width: 2px;
     border-style: solid;
     background-color: transparent;
@@ -98,8 +101,12 @@ ul.header li button.active, ul.header li button:hover {
     display: none;
 }
 
+ul.links li {
+    margin: 0 10px;
+}
+
 ul.links li a {
-    padding: 10px 15px;
+    padding: 1px 2px;
 }
 
 ul.links li a:hover {
