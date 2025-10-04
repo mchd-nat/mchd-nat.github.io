@@ -1,12 +1,20 @@
+:root {
+    --purple-light: #d3869b;
+    --blue-light: #83a598;
+    --yellow-light: #fabd2f;
+    --grey: #282828;
+    --beige: #eddbb2;
+}
+
 * {
     padding: 0;
     margin: 0;
-    color: #1E0B0B;
+    color: var(--grey);
     font-family: "Alan Sans", sans-serif;
 }
 
 ::selection {
-    background-color: #d4dcd1;
+    background-color: var(--blue-light);
 }
 
 html, body {
@@ -25,7 +33,7 @@ a {
 }
 
 .background {
-    background-color: #d4dcd1;
+    background-color: var(--blue-light);
     height: 100%;
     width: 100%;
     padding: 50px;
@@ -39,7 +47,7 @@ a {
     flex-direction: column;
     justify-content: baseline;
     text-align: center;
-    background-color: #f8f8ec;
+    background-color: var(--beige);
     height: 100%;
     width: 100%;
     border-radius: 30px;
@@ -68,7 +76,8 @@ ul.header li button {
     padding: 0;
     text-align: center;
 
-    background-color: #d4dcd1;
+    background-color: var(--purple-light);
+    color: var(--beige);
     width: 120px;
     padding: 10px 0px;
     margin: 0px 5px;
@@ -76,7 +85,8 @@ ul.header li button {
 }
 
 ul.header li button.active, ul.header li button:hover {
-    border-color: #d4dcd1;
+    border-color: var(--purple-light);
+    color: var(--purple-light);
     border-width: 2px;
     border-style: solid;
     background-color: transparent;
@@ -93,7 +103,7 @@ ul.links li a {
 }
 
 ul.links li a:hover {
-    background-color: #d4dcd1;
+    background-color: var(--yellow-light);
 }
 
 .languages, .frameworks {
