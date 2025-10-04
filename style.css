@@ -1,6 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    color: #1E0B0B;
+    font-family: "Alan Sans", sans-serif;
+}
+
+::selection {
+    background-color: #d4dcd1;
 }
 
 html, body {
@@ -19,7 +25,7 @@ a {
 }
 
 .background {
-    background-color: #f8f8ec;
+    background-color: #d4dcd1;
     height: 100%;
     width: 100%;
     padding: 50px;
@@ -59,30 +65,35 @@ ul.header li button {
     border: 0;
     text-transform: uppercase;
     font-size: 13px;
-    color: whitesmoke;
     padding: 0;
     text-align: center;
 
-    background-color: cadetblue;
+    background-color: #d4dcd1;
     width: 120px;
     padding: 10px 0px;
     margin: 0px 5px;
     border-radius: 20px;
 }
 
-ul.header li button.active {
-    border-color: cadetblue;
+ul.header li button.active, ul.header li button:hover {
+    border-color: #d4dcd1;
     border-width: 2px;
     border-style: solid;
     background-color: transparent;
-    color: cadetblue;
     padding: 8px 13px;
     box-sizing: border-box;
 }
 
-ul.links li {
-    padding-left: 20px;
-    padding-right: 20px;
+#about {
+    display: none;
+}
+
+ul.links li a {
+    padding: 10px 15px;
+}
+
+ul.links li a:hover {
+    background-color: #d4dcd1;
 }
 
 .languages, .frameworks {
@@ -94,8 +105,4 @@ ul.links li {
 .languages img, .frameworks img {
     height: 30px;
     padding: 10px;
-}
-
-#about {
-    display: none;
 }
