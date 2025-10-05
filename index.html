@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="light_mode.css" id="theme_link">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
+    <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet">
     <title>Natália S. Machado</title>
 </head>
 <body onload="displayAbout()">
     <script src="./script.js"></script>
     <div class="background">
         <div class="content graph_effect">
+            <button onclick="toggleTheme()" id="darkmode_toggle">
+                <i id="moon_icon" class="iconsax" icon-name="moon"></i>
+            </button>
+            <button onclick="toggleTheme()" id="darkmode_toggle">
+                <i id="sun_icon" class="iconsax" icon-name="sun"></i>
+            </button>
             <section class="menu header">
                 <ul>
                     <li><button onclick="displayAbout()" id="aboutTag" class="active">Sobre</button></li>

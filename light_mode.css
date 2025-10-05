@@ -1,0 +1,32 @@
+* {
+    color: var(--black);
+}
+
+.background, .content {
+    background-color: var(--white);
+}
+
+.header ul li button.inactive {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.header ul li button.active {
+    border-color: var(--black);
+    color: var(--black);
+    background-color: transparent;
+}
+
+.header ul li button.inactive:hover {
+    border-color: var(--black);
+    color: var(--black);
+    background-color: transparent;
+}
+
+#sun_icon {
+    visibility: hidden;
+}
+
+#moon_icon {
+    visibility: visible;
+}
