@@ -1,11 +1,6 @@
 :root {
-    --purple-light: #d3869b;
-    --blue-light: #83a598;
-    --yellow-light: #fabd2f;
-    --grey: #282828;
-    --beige: #eddbb2;
-
-    --white: #FFFFFF;
+    --yellow: #fabd2f;
+    --white: #ffffff;
     --black: #000000;
 }
 
@@ -16,7 +11,7 @@
 }
 
 ::selection {
-    background-color: var(--yellow-light);
+    background-color: var(--yellow);
 }
 
 html, body {
@@ -113,7 +108,7 @@ a {
 }
 
 .links li a:hover {
-    background-color: var(--yellow-light);
+    background-color: var(--yellow);
 }
 
 .languages, .frameworks {
