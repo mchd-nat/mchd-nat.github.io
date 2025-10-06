@@ -3,7 +3,7 @@ import './About.css'
 function About() {
     return <section id="about">
         <h1>Natália Silva Machado</h1>
-        <p>Desenvolvedora front-end & mobile</p>
+        <p className="dev">Desenvolvedora front-end & mobile + Pesquisadora</p>
         <section className="menu links">
             <ul>
                 <li><a href="https://github.com/natsmachado">GitHub</a></li>
@@ -13,14 +13,14 @@ function About() {
         </section>
         <section>
             <div className="languages">
-                <img src={"../../public/html5-plain.svg"} />
-                <img src="../../public/css3-plain.svg" />
-                <img src="../../public/javascript-plain.svg" />
-                <img src="../../public/dart-plain.svg" />
+                <img src="../../public/html5-plain.svg" alt="HTML5 logo" />
+                <img src="../../public/css3-plain.svg" alt="CSS3 logo" />
+                <img src="../../public/javascript-plain.svg" alt="JavaScript logo "/>
+                <img src="../../public/dart-plain.svg" alt="Dart logo" />
                 <div className="divider"></div>
-                <img src="../../public/flutter-plain.svg" />
-                <img src="../../public/vuejs-original.svg" />
-                <img src="../../public/react-original.svg" />
+                <img src="../../public/flutter-plain.svg" alt="Flutter logo" />
+                <img src="../../public/vuejs-original.svg" alt="Vue.js logo" />
+                <img src="../../public/react-original.svg" alt="React logo" />
             </div>
         </section>
     </section>

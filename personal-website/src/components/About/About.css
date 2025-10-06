@@ -1,4 +1,17 @@
-ection section.menu.links ul li {
+em {
+    font-style: normal;
+    background-color: var(--yellow);
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+section section.menu.links ul {
+    margin-top: 20px;
+}
+
+section section.menu.links ul li {
     margin: 0 10px;
 }
 
