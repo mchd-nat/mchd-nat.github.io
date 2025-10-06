@@ -1,5 +1,4 @@
 import './Tabs.css';
-import '../../styles/light_mode.css'
 
 function Tabs({onClick, title, index, activeTab}) {
     const isActiveTab = activeTab === index;

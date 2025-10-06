@@ -1,0 +1,35 @@
+* {
+  color: var(--black);
+}
+
+.background, .content {
+  background-color: var(--white);
+}
+
+ul li button {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+ul li button.active {
+  border-color: var(--black);
+  color: var(--black);
+}
+
+ul li button:hover {
+  border-color: var(--black);
+  color: var(--black);
+  background-color: transparent;
+}
+
+#sun_icon {
+  display: none;
+}
+
+#moon_icon {
+  display: block;
+}
+
+.divider {
+  background-color: var(--black); 
+}

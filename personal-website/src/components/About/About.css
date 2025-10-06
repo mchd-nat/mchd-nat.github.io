@@ -15,10 +15,6 @@ section section.menu.links ul li {
     margin: 0 10px;
 }
 
-section section.menu.links ul li a {
-    padding: 1px 2px;
-}
-
 section section.menu.links ul li a:hover {
     background-color: var(--yellow);
 }
