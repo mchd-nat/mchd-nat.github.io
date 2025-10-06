@@ -1,5 +1,5 @@
-import '../App.css'
-import About from './About'
+import '..//styles/App.css'
+import About from './About/About.jsx'
 
 function TabContent(props) {
     if (props.activeTab == 0) {

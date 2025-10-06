@@ -1,7 +1,7 @@
-import './App.css'
-import './light_mode.css'
-import TabContent from './components/TabContent'
-import Tabs from './components/Tabs'
+import './styles/App.css'
+import './styles/light_mode.css'
+import TabContent from './components/TabContent.jsx'
+import Tabs from './components/Tabs/Tabs.jsx'
 import React, { useState } from 'react';
 
 function App() {
