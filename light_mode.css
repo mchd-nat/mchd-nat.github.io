@@ -14,7 +14,6 @@
 .header ul li button.active {
     border-color: var(--black);
     color: var(--black);
-    background-color: transparent;
 }
 
 .header ul li button.inactive:hover {
@@ -24,9 +23,13 @@
 }
 
 #sun_icon {
-    visibility: hidden;
+    display: none;
 }
 
 #moon_icon {
-    visibility: visible;
+    display: block;
+}
+
+.divider {
+    background-color: var(--black); 
 }

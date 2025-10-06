@@ -29,6 +29,11 @@ a {
         linear-gradient(to bottom, rgba(128, 128, 128, 0.199) 1px, transparent 1px);
 }
 
+body {
+    justify-content: center;
+    align-items: center;
+}
+
 .background {
     height: 100%;
     width: 100%;
@@ -49,13 +54,12 @@ a {
 }
 
 #darkmode_toggle {
-    position: absolute; 
-    right: 0; 
-    margin-right: 6%; 
-    margin-top: 2%;
+    margin-right: 25px; 
+    margin-top: 25px;
     background-color: transparent;
     border: none;
     font-size: 25px;
+    text-align: right;
 }
 
 .menu ul {
@@ -71,7 +75,7 @@ a {
 }
 
 .header ul li {
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .header ul li button {
@@ -111,6 +115,13 @@ a {
     background-color: var(--yellow);
 }
 
+.divider {
+    height: 50px; width: 1px; 
+    align-items: center; 
+    text-align: center; 
+    margin: 0 10px;
+}
+
 .languages, .frameworks {
     display: flex;
     flex-direction: row;
@@ -120,4 +131,27 @@ a {
 .languages img, .frameworks img {
     height: 30px;
     padding: 10px;
+}
+
+@media(max-width: 572px) {
+    #about {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #about h1, p {
+        flex-wrap: wrap;
+        width: 200px;
+    }
+
+    .languages {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .divider {
+        display: none;
+    }
 }

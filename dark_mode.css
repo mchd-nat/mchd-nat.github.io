@@ -28,9 +28,13 @@
 }
 
 #moon_icon {
-    visibility: hidden;
+    display: none;
 }
 
 #sun_icon {
-    visibility: visible;
+    display: block;
+}
+
+.divider {
+    background-color: var(--white); 
 }
