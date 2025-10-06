@@ -1,0 +1,29 @@
+ection section.menu.links ul li {
+    margin: 0 10px;
+}
+
+section section.menu.links ul li a {
+    padding: 1px 2px;
+}
+
+section section.menu.links ul li a:hover {
+    background-color: var(--yellow);
+}
+
+section div.divider {
+    height: 50px; width: 1px; 
+    align-items: center; 
+    text-align: center; 
+    margin: 0 10px;
+}
+
+section div.languages, section.menu.links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section div.languages img {
+  height: 30px;
+  padding: 10px;
+}

@@ -6,17 +6,17 @@
     background-color: var(--white);
 }
 
-.header ul li button.inactive {
+ul li button {
     background-color: var(--black);
     color: var(--white);
 }
 
-.header ul li button.active {
+ul li button.active {
     border-color: var(--black);
     color: var(--black);
 }
 
-.header ul li button.inactive:hover {
+ul li button:hover {
     border-color: var(--black);
     color: var(--black);
     background-color: transparent;
