@@ -1,0 +1,44 @@
+::selection {
+  background-color: var(--yellow);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Alan Sans", sans-serif;
+}
+
+#root {
+  --yellow: #fabd2f;
+  --white: #ffffff;
+  --black: #000000;
+
+  height: 100%;
+  width: 100%;
+}
+
+.graph_effect {
+  background-size: 15px 15px;
+  background-image:
+  linear-gradient(to right, rgba(128, 128, 128, 0.199) 1px, transparent 1px),
+  linear-gradient(to bottom, rgba(128, 128, 128, 0.199) 1px, transparent 1px);
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
