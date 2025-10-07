@@ -22,12 +22,12 @@ ul li button:hover {
   background-color: transparent;
 }
 
-#sun_icon {
-  display: none;
-}
-
 #moon_icon {
   display: block;
+}
+
+#sun_icon {
+  display: none;
 }
 
 .divider {

@@ -1,0 +1,21 @@
+.card {
+    background-color: var(--white);
+    width: 600px;
+    height: fit-content;
+    padding: 30px;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: auto;
+    border-radius: 25px;
+    border-color: var(--black);
+    border-width: 2px;
+    border-style: solid;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h3 {
+    background-color: var(--yellow);
+    width: fit-content;
+    margin: 5px 0;
+}

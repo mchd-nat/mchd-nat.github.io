@@ -13,15 +13,18 @@ function App() {
 
   return (
     <>
-      <button onClick={() => setDarkMode(!darkMode)} id="darkmode_toggle">
-        <i id="moon_icon" className="iconsax" icon-name="moon"></i>
-        <i id="sun_icon" className="iconsax" icon-name="sun"></i>
-      </button>
-      <link rel="stylesheet" href={darkMode ? "../public/darkMode.css" : "../public/lightMode.css"} />
+      <section className="darkModeControl">
+        <button onClick={() => {setDarkMode(!darkMode)}}>
+          <i id="moon_icon" className="iconsax" icon-name="moon"></i>
+          <i id="sun_icon" className="iconsax" icon-name="sun"></i>
+        </button>
+      </section>
+      <link rel="stylesheet" href={darkMode ? "/darkMode.css" : "/lightMode.css"} />
       <section className="menu header">
         <Tabs onClick={displayTab} title="Sobre" index={0} activeTab={activeTab} />
         <Tabs onClick={displayTab} title="Portfólio" index={1} activeTab={activeTab} />
-        <Tabs onClick={displayTab} title="Outro" index={2} activeTab={activeTab} />
+        <Tabs onClick={displayTab} title="Publicações" index={2} activeTab={activeTab} />
+        <Tabs onClick={displayTab} title="Blog" index={3} activeTab={activeTab} />
       </section>
       <TabContent activeTab={activeTab} />
     </>
