@@ -30,7 +30,7 @@ section section.menu.links li a:hover,
 .card h3, 
 .post h2.postDate,
 .header ul li button,
-.card p {
+a.card p {
   color: var(--black);
 }
 
