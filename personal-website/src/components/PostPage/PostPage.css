@@ -5,7 +5,7 @@
 }
 
 div.post {
-    width: 1000px;
+    width: 700px;
     padding: 0 35px;
     margin: auto;
 }
@@ -37,9 +37,12 @@ div.post h2 {
 }
 
 div.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: justify;
-    margin-top: 32px;
-    margin-left: 32px;
+    margin: 32px;
+    margin-bottom: 50px;
     line-height: 25px;
 }
 
