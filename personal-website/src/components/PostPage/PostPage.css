@@ -5,8 +5,8 @@
 }
 
 div.post {
-    width: 1170px;
-    padding: 25px 35px;
+    width: 1000px;
+    padding: 0 35px;
     margin: auto;
 }
 
@@ -17,6 +17,7 @@ div.post a.goBack {
     margin-bottom: 15px;
     text-decoration: none;
     color: var(--black);
+    width: fit-content;
 }
 
 div.post a.goBack p {

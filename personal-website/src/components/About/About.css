@@ -35,4 +35,6 @@ section div.languages, section.menu.links ul {
 section div.languages img {
   height: 30px;
   padding: 10px;
+
+  margin-bottom: 30px;
 }

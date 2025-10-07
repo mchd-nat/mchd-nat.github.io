@@ -42,3 +42,12 @@ section section.menu.links li a:hover {
 .divider {
   background-color: var(--white); 
 }
+
+.card {
+  background-color: var(--black);
+  border-color: var(--white);
+}
+
+.card h3 {
+  color: var(--black);
+}

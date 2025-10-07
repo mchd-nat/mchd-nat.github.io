@@ -6,20 +6,6 @@ a {
     text-decoration: none;
 }
 
-section.darkModeControl {
-    width: 100%;
-}
-
-section.darkModeControl button {
-    margin-right: 25px; 
-    margin-top: 25px;
-    background-color: transparent;
-    border: none;
-    font-size: 25px;
-    width: fit-content;
-    float: right;
-}
-
 .menu.header {
     list-style: none;
     display: flex;

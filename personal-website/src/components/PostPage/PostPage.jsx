@@ -3,6 +3,7 @@ import blogPosts from "../../blogPosts";
 import Slugify from "../../slugify";
 import './PostPage.css'
 import { marked } from 'marked';
+import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 
 function PostPage() {
     const { postTitle } = useParams();
@@ -20,6 +21,7 @@ function PostPage() {
     }
 
     return <div className="post">
+        <DarkModeToggle />
         <a href={`/`} className="goBack">
             <i id="arrow_left_icon" className="iconsax" icon-name="arrow-left"></i>
             <p>Voltar</p>
