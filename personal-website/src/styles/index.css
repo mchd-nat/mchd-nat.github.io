@@ -42,14 +42,13 @@
   margin: 50px;
   padding-top: 50px;
   overflow-y: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
-::-webkit-scrollbar-track  {
-  background-color: var(--white);
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: var(--black);
+/* Chrome, Safari and Opera */
+.content::-webkit-scrollbar {
+  display: none;
 }
 
 button:hover, a:hover {
