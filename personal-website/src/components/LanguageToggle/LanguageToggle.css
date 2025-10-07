@@ -1,0 +1,13 @@
+.languageToggle {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -10px;
+}
+
+.languageToggle select {
+  border-width: 0;
+  border-radius: 20px;
+  padding: 5px 10px;
+}

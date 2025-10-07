@@ -7,8 +7,13 @@ import PostPreview from "./components/PostPreview/PostPreview.jsx";
 import PostPage from "./components/PostPage/PostPage.jsx";
 import DarkModeToggle from "./components/DarkModeToggle/DarkModeToggle.jsx";
 import "./styles/Responsive.css";
+import { useTranslation } from "react-i18next";
+import "./i18n/i18n.jsx";
+import LanguageToggle from "./components/LanguageToggle/LanguageToggle.jsx";
 
 function App() {
+  const { t } = useTranslation();
+
   <Router>
     <Routes>
       <Route path="/" element={<PostPreview />} />
@@ -42,6 +47,7 @@ function App() {
           path="/"
           element={
             <>
+              <LanguageToggle />
               <DarkModeToggle
                 darkMode={darkMode}
                 toggleDarkMode={toggleDarkMode}
@@ -55,25 +61,25 @@ function App() {
               <section className="menu header">
                 <Tabs
                   onClick={displayTab}
-                  title="Sobre"
+                  title={t("about")}
                   index={0}
                   activeTab={activeTab}
                 />
                 <Tabs
                   onClick={displayTab}
-                  title="Portfólio"
+                  title={t("portfolio")}
                   index={1}
                   activeTab={activeTab}
                 />
                 <Tabs
                   onClick={displayTab}
-                  title="Publicações"
+                  title={t("publications")}
                   index={2}
                   activeTab={activeTab}
                 />
                 <Tabs
                   onClick={displayTab}
-                  title="Blog"
+                  title={t("blog")}
                   index={3}
                   activeTab={activeTab}
                 />

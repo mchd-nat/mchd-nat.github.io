@@ -1,10 +1,13 @@
 import "./About.css";
+import { useTranslation } from "react-i18next";
 
 function About() {
+  const { t } = useTranslation();
+
   return (
     <section id="about">
       <h1>Natália Silva Machado</h1>
-      <p className="dev">Desenvolvedora front-end & mobile + Pesquisadora</p>
+      <p className="dev">{t("roles")}</p>
       <section className="menu links">
         <ul>
           <li>

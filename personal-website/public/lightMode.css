@@ -12,6 +12,10 @@ section.menu.header div.tagButton button {
   color: var(--white);
 }
 
+section section.menu.links li a {
+  color: var(--black);
+}
+
 section.menu.header div.tagButton button.active,
 section.menu.header div.tagButton button:hover {
   border-color: var(--black);
@@ -29,4 +33,9 @@ section.menu.header div.tagButton button:hover {
 
 .divider {
   background-color: var(--black);
+}
+
+.languageToggle select {
+  background-color: var(--black);
+  color: var(--white);
 }
