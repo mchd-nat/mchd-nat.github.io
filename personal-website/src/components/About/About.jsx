@@ -6,9 +6,9 @@ function About() {
         <p className="dev">Desenvolvedora front-end & mobile + Pesquisadora</p>
         <section className="menu links">
             <ul>
-                <li><a href="https://github.com/natsmachado">GitHub</a></li>
-                <li><a href="">LinkedIn</a></li>
-                <li><a href="">Email</a></li>
+                <li><a href="https://github.com/natsmachado" target="_blank">GitHub</a></li>
+                <li><a href="" target="_blank">LinkedIn</a></li>
+                <li><a href="" target="_blank">Email</a></li>
             </ul>
         </section>
         <section>
