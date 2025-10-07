@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PostPreview from './components/PostPreview/PostPreview.jsx';
 import PostPage from './components/PostPage/PostPage.jsx';
 import DarkModeToggle from './components/DarkModeToggle/DarkModeToggle.jsx';
+import './styles/Responsive.css'
 
 function App() {
   <Router>
@@ -52,6 +53,14 @@ function App() {
                 <Tabs onClick={displayTab} title="Blog" index={3} activeTab={activeTab} />
               </section>
               <TabContent activeTab={activeTab} />
+              <footer>
+                <p className="copyright">
+                  Copyright © 2025 by Natália Silva Machado
+                </p>
+                <p className="copyright">
+                  Powered by React
+                </p>
+              </footer>
             </>
           }
         />
