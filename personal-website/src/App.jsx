@@ -16,14 +16,21 @@ function App() {
   </Router>
 
   const [activeTab, setTabActive] = useState(0);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    const stored = localStorage.getItem('darkMode');
+    return stored === 'true';
+  });
 
   const displayTab = (index) => {
     setTabActive(index); 
   };
 
   const toggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
+    setDarkMode((prev) => {
+      const newValue = !prev;
+      localStorage.setItem('darkMode', newValue);
+      return newValue;
+    });
   };
 
   return (

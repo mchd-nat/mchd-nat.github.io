@@ -8,14 +8,24 @@ import { useState } from "react";
 
 function PostPage() {
     const { postTitle } = useParams();
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(() => {
+        const stored = localStorage.getItem('darkMode');
+        return stored === 'true';
+    });
+
     const post = blogPosts.find((p) => {
         return Slugify(p.title) === Slugify(postTitle);
     });
+
     const htmlContent = marked.parse(post.body);
+
     const toggleDarkMode = () => {
-        setDarkMode((prev) => !prev);
-    };
+    setDarkMode((prev) => {
+      const newValue = !prev;
+      localStorage.setItem('darkMode', newValue);
+      return newValue;
+    });
+  };
 
     if (!post) {
         return <h1>Post not found</h1>
