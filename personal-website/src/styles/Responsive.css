@@ -142,3 +142,30 @@
         margin-right: 20px;
     }
 }
+
+/* blog post */
+
+@media(max-width: 925px) {
+    div.content.graph_effect div.post {
+        width: 500px;
+    }
+}
+
+@media(max-width: 720px) {
+    div.content.graph_effect div.post {
+        width: 400px;
+    }
+}
+
+@media(max-width: 575px) {
+    div.content.graph_effect div.post {
+        width: 300px;
+    }
+}
+
+@media(max-width: 470px) {
+    div.content.graph_effect div.post div.body {
+        margin-left: 0;
+        width: 200px;
+    }
+}
