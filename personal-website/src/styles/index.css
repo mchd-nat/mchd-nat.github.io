@@ -40,6 +40,6 @@
   width: 100%;
   border-radius: 30px;
   margin: 50px;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding-top: 50px;
 }
