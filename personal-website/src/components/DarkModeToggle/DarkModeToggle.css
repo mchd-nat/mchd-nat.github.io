@@ -3,14 +3,11 @@ section.darkModeControl {
   display: flex;
   align-items: center;
   width: fit-content;
-  position: absolute;
-  right: 0;
-  margin-right: 90px;
-  margin-top: -10px;
 }
 
 section.darkModeControl button {
-  background-color: transparent;
+  padding: 10px;
+  border-radius: 100%;
   border: none;
-  font-size: 25px;
+  font-size: 15px;
 }

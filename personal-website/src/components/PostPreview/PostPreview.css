@@ -1,12 +1,10 @@
 .card {
-  background-color: var(--white);
   width: 540px;
   height: fit-content;
   padding: 30px;
   box-sizing: border-box;
   margin: auto;
   border-radius: 25px;
-  border-color: var(--black);
   border-width: 2px;
   border-style: solid;
   text-align: left;

@@ -31,11 +31,18 @@ section section.menu.links li a {
 }
 
 section section.menu.links li a:hover,
-.card h3,
 .post h2.postDate,
 section.menu.header div.tagButton button,
-a.card p span {
+.card p span {
   color: var(--black);
+}
+
+.card h3 {
+  color: var(--white);
+}
+
+section.darkModeControl button {
+  background-color: var(--white);
 }
 
 #moon_icon {
@@ -44,6 +51,7 @@ a.card p span {
 
 #sun_icon {
   display: block;
+  color: var(--black);
 }
 
 .divider {
@@ -51,8 +59,9 @@ a.card p span {
 }
 
 .card {
-  background-color: var(--black) !important;
-  border-color: var(--white) !important;
+  background-color: transparent;
+  border-color: var(--white);
+  color: var(--white);
 }
 
 .languageToggle select {

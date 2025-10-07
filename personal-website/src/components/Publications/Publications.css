@@ -1,11 +1,9 @@
 section#publicacoes a.card {
-  background-color: var(--white);
   width: 370px;
   height: 100%;
   padding: 30px;
   box-sizing: border-box;
   border-radius: 25px;
-  border-color: var(--black);
   border-width: 2px;
   border-style: solid;
   text-align: left;

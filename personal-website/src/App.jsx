@@ -47,11 +47,13 @@ function App() {
           path="/"
           element={
             <>
-              <LanguageToggle />
-              <DarkModeToggle
-                darkMode={darkMode}
-                toggleDarkMode={toggleDarkMode}
-              />
+              <div className="controls">
+                <LanguageToggle />
+                <DarkModeToggle
+                  darkMode={darkMode}
+                  toggleDarkMode={toggleDarkMode}
+                />
+              </div>
 
               <link
                 rel="stylesheet"
