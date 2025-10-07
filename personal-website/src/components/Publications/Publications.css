@@ -23,7 +23,7 @@ section#publicacoes a.card h2 {
   height: 40px;
 }
 
-section#publicacoes a.card p {
+section#publicacoes a.card p span {
   background-color: var(--yellow);
   width: fit-content;
   margin: 5px 0;

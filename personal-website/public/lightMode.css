@@ -7,17 +7,13 @@
   background-color: var(--white);
 }
 
-ul li button {
+section.menu.header div.tagButton button {
   background-color: var(--black);
   color: var(--white);
 }
 
-ul li button.active {
-  border-color: var(--black);
-  color: var(--black);
-}
-
-ul li button:hover {
+section.menu.header div.tagButton button.active,
+section.menu.header div.tagButton button:hover {
   border-color: var(--black);
   color: var(--black);
   background-color: transparent;

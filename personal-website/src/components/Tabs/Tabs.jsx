@@ -4,16 +4,14 @@ function Tabs({ onClick, title, index, activeTab }) {
   const isActiveTab = activeTab === index;
 
   return (
-    <ul>
-      <li>
-        <button
-          className={isActiveTab ? "active" : ""}
-          onClick={() => onClick(index)}
-        >
-          {title}
-        </button>
-      </li>
-    </ul>
+    <div className="tagButton">
+      <button
+        className={isActiveTab ? "active" : ""}
+        onClick={() => onClick(index)}
+      >
+        {title}
+      </button>
+    </div>
   );
 }
 

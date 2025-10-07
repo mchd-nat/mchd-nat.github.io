@@ -15,14 +15,14 @@ em {
   color: var(--black) !important;
 }
 
-.header ul li button.active,
-.header ul li button:hover {
+section.menu.header div.tagButton button.active,
+section.menu.header div.tagButton button:hover {
   border-color: var(--white);
   color: var(--white);
   background-color: transparent;
 }
 
-.header ul li button {
+section.menu.header div.tagButton button {
   background-color: var(--white);
 }
 
@@ -33,8 +33,8 @@ section section.menu.links li a {
 section section.menu.links li a:hover,
 .card h3,
 .post h2.postDate,
-.header ul li button,
-a.card p {
+section.menu.header div.tagButton button,
+a.card p span {
   color: var(--black);
 }
 

@@ -8,7 +8,9 @@ function Publications() {
         <a href={pub.url} target="_blank" className="card">
           <h1>{pub.title}</h1>
           <h2>Publicado em {pub.publisher}</h2>
-          <p>{pub.doi}</p>
+          <p>
+            <span>{pub.doi}</span>
+          </p>
         </a>
       ))}
     </>
