@@ -2,32 +2,31 @@
   color: var(--white);
 }
 
-.background, .content {
+.background, 
+.content {
   background-color: var(--black);
 }
 
-.header ul li button {
-  background-color: var(--white);
-  color: var(--black);
-}
-
-.header ul li button.active {
-  border-color: var(--white);
-  color: var(--white);
-  background-color: transparent;
-}
-
+.header ul li button.active,
 .header ul li button:hover {
   border-color: var(--white);
   color: var(--white);
   background-color: transparent;
 }
 
+.header ul li button {
+  background-color: var(--white);
+}
+
 section section.menu.links li a {
   color: var(--white);
 }
 
-section section.menu.links li a:hover {
+section section.menu.links li a:hover, 
+.card h3, 
+.post h2.postDate, 
+em,
+.header ul li button {
   color: var(--black);
 }
 
@@ -46,8 +45,4 @@ section section.menu.links li a:hover {
 .card {
   background-color: var(--black);
   border-color: var(--white);
-}
-
-.card h3 {
-  color: var(--black);
 }

@@ -34,7 +34,7 @@ function App() {
           path="/"
           element={
             <>
-              <DarkModeToggle className="home" darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+              <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
               <link rel="stylesheet" href={darkMode ? "/darkMode.css" : "/lightMode.css"} />
 
