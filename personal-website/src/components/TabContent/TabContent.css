@@ -1,14 +1,14 @@
 #publicacoes {
-    display: flex;
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-    overflow-x: auto;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* Chrome, Safari and Opera */
 #publicacoes::-webkit-scrollbar {
-    display: none;
+  display: none;
 }

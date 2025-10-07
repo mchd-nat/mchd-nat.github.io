@@ -1,29 +1,30 @@
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 ul li {
-    padding: 50px 5px;
-    padding-top: 20px;
+  padding: 50px 5px;
+  padding-top: 20px;
 }
 
 ul li button {
-    border: 0;
-    text-transform: uppercase;
-    font-size: 13px;
-    padding: 0;
-    text-align: center;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 0;
+  text-align: center;
 
-    width: 120px;
-    padding: 10px 0px;
-    margin: 0px 5px;
-    border-radius: 20px;
+  width: 120px;
+  padding: 10px 0px;
+  margin: 0px 5px;
+  border-radius: 20px;
 }
 
-.header ul li button.active, .header ul li button:hover {
-    border-width: 2px;
-    border-style: solid;
-    background-color: transparent;
-    padding: 8px 13px;
-    box-sizing: border-box;
+.header ul li button.active,
+.header ul li button:hover {
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  padding: 8px 13px;
+  box-sizing: border-box;
 }

@@ -1,12 +1,12 @@
-import './styles/App.css'
-import TabContent from './components/TabContent/TabContent.jsx'
-import Tabs from './components/Tabs/Tabs.jsx'
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import PostPreview from './components/PostPreview/PostPreview.jsx';
-import PostPage from './components/PostPage/PostPage.jsx';
-import DarkModeToggle from './components/DarkModeToggle/DarkModeToggle.jsx';
-import './styles/Responsive.css'
+import "./styles/App.css";
+import TabContent from "./components/TabContent/TabContent.jsx";
+import Tabs from "./components/Tabs/Tabs.jsx";
+import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PostPreview from "./components/PostPreview/PostPreview.jsx";
+import PostPage from "./components/PostPage/PostPage.jsx";
+import DarkModeToggle from "./components/DarkModeToggle/DarkModeToggle.jsx";
+import "./styles/Responsive.css";
 
 function App() {
   <Router>
@@ -14,22 +14,22 @@ function App() {
       <Route path="/" element={<PostPreview />} />
       <Route path="/posts/:postTitle" element={<PostPage />} />
     </Routes>
-  </Router>
+  </Router>;
 
   const [activeTab, setTabActive] = useState(0);
   const [darkMode, setDarkMode] = useState(() => {
-    const stored = localStorage.getItem('darkMode');
-    return stored === 'true';
+    const stored = localStorage.getItem("darkMode");
+    return stored === "true";
   });
 
   const displayTab = (index) => {
-    setTabActive(index); 
+    setTabActive(index);
   };
 
   const toggleDarkMode = () => {
     setDarkMode((prev) => {
       const newValue = !prev;
-      localStorage.setItem('darkMode', newValue);
+      localStorage.setItem("darkMode", newValue);
       return newValue;
     });
   };
@@ -38,28 +38,52 @@ function App() {
     <Router>
       <Routes>
         <Route path="/posts/:postTitle" element={<PostPage />} />
-        <Route 
+        <Route
           path="/"
           element={
             <>
-              <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+              <DarkModeToggle
+                darkMode={darkMode}
+                toggleDarkMode={toggleDarkMode}
+              />
 
-              <link rel="stylesheet" href={darkMode ? "/darkMode.css" : "/lightMode.css"} />
+              <link
+                rel="stylesheet"
+                href={darkMode ? "/darkMode.css" : "/lightMode.css"}
+              />
 
               <section className="menu header">
-                <Tabs onClick={displayTab} title="Sobre" index={0} activeTab={activeTab} />
-                <Tabs onClick={displayTab} title="Portfólio" index={1} activeTab={activeTab} />
-                <Tabs onClick={displayTab} title="Publicações" index={2} activeTab={activeTab} />
-                <Tabs onClick={displayTab} title="Blog" index={3} activeTab={activeTab} />
+                <Tabs
+                  onClick={displayTab}
+                  title="Sobre"
+                  index={0}
+                  activeTab={activeTab}
+                />
+                <Tabs
+                  onClick={displayTab}
+                  title="Portfólio"
+                  index={1}
+                  activeTab={activeTab}
+                />
+                <Tabs
+                  onClick={displayTab}
+                  title="Publicações"
+                  index={2}
+                  activeTab={activeTab}
+                />
+                <Tabs
+                  onClick={displayTab}
+                  title="Blog"
+                  index={3}
+                  activeTab={activeTab}
+                />
               </section>
               <TabContent activeTab={activeTab} />
               <footer>
                 <p className="copyright">
                   Copyright © 2025 by Natália Silva Machado
                 </p>
-                <p className="copyright">
-                  Powered by React
-                </p>
+                <p className="copyright">Powered by React</p>
               </footer>
             </>
           }
@@ -69,4 +93,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

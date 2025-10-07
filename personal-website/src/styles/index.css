@@ -10,7 +10,7 @@
 
 #root {
   --yellow: #fabd2f;
-  --white: #FAF9F6;
+  --white: #faf9f6;
   --black: #272321;
 
   height: 100%;
@@ -19,8 +19,11 @@
 
 .graph_effect {
   background-size: 15px 15px;
-  background-image:
-    linear-gradient(to right, rgba(128, 128, 128, 0.199) 1px, transparent 1px),
+  background-image: linear-gradient(
+      to right,
+      rgba(128, 128, 128, 0.199) 1px,
+      transparent 1px
+    ),
     linear-gradient(to bottom, rgba(128, 128, 128, 0.199) 1px, transparent 1px);
 }
 
@@ -42,8 +45,8 @@
   margin: 50px;
   padding-top: 50px;
   overflow-y: auto;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* Chrome, Safari and Opera */
@@ -51,6 +54,7 @@
   display: none;
 }
 
-button:hover, a:hover {
+button:hover,
+a:hover {
   cursor: pointer;
 }

@@ -1,14 +1,14 @@
 const blogPosts = [
-    {
-        "id": Date.now().toString(),
-        "title": "Primeiro post",
-        "date": new Date().toLocaleDateString("pt-BR", {
-            year: "numeric",
-            month: "long",
-            day: "numeric"
-        }),
-        "blurb": "Sobre o que foi feito e o que ainda precisa ser feito.",
-        "body": `É meia-noite e meia, e eu estou morrendo de sono, mas não quero parar de acrescentar à esse site. Esse projeto me empolgou tanto e tem sido tão divertido de desenvolver! 
+  {
+    id: Date.now().toString(),
+    title: "Primeiro post",
+    date: new Date().toLocaleDateString("pt-BR", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }),
+    blurb: "Sobre o que foi feito e o que ainda precisa ser feito.",
+    body: `É meia-noite e meia, e eu estou morrendo de sono, mas não quero parar de acrescentar à esse site. Esse projeto me empolgou tanto e tem sido tão divertido de desenvolver! 
 
 ㅤ
 
@@ -44,9 +44,8 @@ Ainda há muito a ser ajustado para que esse sistema não simplesmente *funcione
 ㅤ
 
 Esse foi meu primeiro post, mas não tenho intenção nenhum de que seja o último. Até lá, boa noite!
-        `
+        `,
+  },
+];
 
-    }
-]
-
-export default blogPosts
+export default blogPosts;

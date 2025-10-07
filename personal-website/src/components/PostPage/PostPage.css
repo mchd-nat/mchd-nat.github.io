@@ -1,52 +1,53 @@
 #arrow_left_icon {
-    font-size: 20px;
-    display: flex;
-    justify-content: left;
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
 }
 
 div.post {
-    width: 700px;
-    padding: 0 35px;
-    margin: auto;
+  width: 700px;
+  padding: 0 35px;
+  margin: auto;
 }
 
 div.post a.goBack {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 15px;
-    text-decoration: none;
-    color: var(--black);
-    width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: var(--black);
+  width: fit-content;
 }
 
 div.post a.goBack p {
-    margin-left: 10px;
-    font-size: 15px;
+  margin-left: 10px;
+  font-size: 15px;
 }
 
-div.post h1, div.post h2 {
-    text-align: left;
+div.post h1,
+div.post h2 {
+  text-align: left;
 }
 
 div.post h2 {
-    background-color: var(--yellow);
-    width: fit-content;
-    margin: 0px;
-    font-size: 19px;
+  background-color: var(--yellow);
+  width: fit-content;
+  margin: 0px;
+  font-size: 19px;
 }
 
 div.body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: justify;
-    margin: 32px;
-    margin-bottom: 50px;
-    line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin: 32px;
+  margin-bottom: 50px;
+  line-height: 25px;
 }
 
 div.body ul li {
-    padding: 0px;
-    list-style: circle;
+  padding: 0px;
+  list-style: circle;
 }

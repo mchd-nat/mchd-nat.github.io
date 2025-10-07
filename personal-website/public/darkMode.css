@@ -6,7 +6,7 @@
   color: var(--black);
 }
 
-.background, 
+.background,
 .content {
   background-color: var(--black);
 }
@@ -30,8 +30,8 @@ section section.menu.links li a {
   color: var(--white);
 }
 
-section section.menu.links li a:hover, 
-.card h3, 
+section section.menu.links li a:hover,
+.card h3,
 .post h2.postDate,
 .header ul li button,
 a.card p {
@@ -47,12 +47,10 @@ a.card p {
 }
 
 .divider {
-  background-color: var(--white); 
+  background-color: var(--white);
 }
 
 .card {
   background-color: var(--black) !important;
   border-color: var(--white) !important;
 }
-
-
