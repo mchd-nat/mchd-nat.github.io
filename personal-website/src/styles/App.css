@@ -25,7 +25,8 @@ footer {
   margin-bottom: 8px;
 }
 
-.controls {
+.controls,
+.post .darkModeControl {
   position: absolute;
   display: flex;
   flex-direction: row;

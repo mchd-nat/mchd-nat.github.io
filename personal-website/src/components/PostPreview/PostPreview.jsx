@@ -6,7 +6,7 @@ function PostPreview() {
   return (
     <>
       {blogPosts.map((post) => (
-        <a href={`/posts/${Slugify(post.title)}`}>
+        <a key={post.id} href={`/posts/${Slugify(post.title)}`}>
           <div key={post.id} className="card">
             <h2>{post.title}</h2>
             <h3>{post.date}</h3>

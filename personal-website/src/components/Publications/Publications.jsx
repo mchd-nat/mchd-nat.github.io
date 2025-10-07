@@ -5,7 +5,7 @@ function Publications() {
   return (
     <>
       {publications.map((pub) => (
-        <a href={pub.url} target="_blank" className="card">
+        <a key={pub.url} href={pub.url} target="_blank" className="card">
           <h1>{pub.title}</h1>
           <h2>Publicado em {pub.publisher}</h2>
           <p>
