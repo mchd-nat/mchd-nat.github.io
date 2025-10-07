@@ -1,3 +1,1 @@
-# Nat's website
-
-A repository for my personal website
+Personal website created with HTML5, CSS3, JavaScript and Vue.js.
