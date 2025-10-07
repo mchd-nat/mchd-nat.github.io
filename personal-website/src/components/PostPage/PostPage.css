@@ -1,0 +1,48 @@
+#arrow_left_icon {
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+div.post {
+    width: 1170px;
+    padding: 25px 35px;
+    margin: auto;
+}
+
+div.post a.goBack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+div.post a.goBack p {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+div.post h1, div.post h2 {
+    text-align: left;
+}
+
+div.post h2 {
+    background-color: var(--yellow);
+    width: fit-content;
+    margin: 0px;
+    font-size: 19px;
+}
+
+div.body {
+    text-align: justify;
+    margin-top: 32px;
+    margin-left: 32px;
+    line-height: 25px;
+}
+
+div.body ul li {
+    padding: 0px;
+    list-style: circle;
+}

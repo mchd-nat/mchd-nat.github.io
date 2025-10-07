@@ -27,8 +27,7 @@
 .background {
   height: 100%;
   width: 100%;
-  padding: 50px;
-  box-sizing: border-box;
+  /*padding: 50px;*/
   display: flex;
   flex-direction: row;
 }
@@ -38,7 +37,10 @@
   flex-direction: column;
   justify-content: baseline;
   text-align: center;
-  height: 100%;
+  height: auto;
   width: 100%;
   border-radius: 30px;
+  margin: 50px;
+
+  overflow-y: scroll;
 }
