@@ -1,5 +1,5 @@
 import './styles/App.css'
-import TabContent from './components/TabContent.jsx'
+import TabContent from './components/TabContent/TabContent.jsx'
 import Tabs from './components/Tabs/Tabs.jsx'
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';

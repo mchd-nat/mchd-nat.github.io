@@ -1,6 +1,8 @@
-import '..//styles/App.css'
-import About from './About/About.jsx'
-import PostPreview from './PostPreview/PostPreview.jsx';
+import '../../styles/App.css'
+import About from '../About/About.jsx'
+import PostPreview from '../PostPreview/PostPreview.jsx';
+import Publications from '../Publications/Publications.jsx';
+import './TabContent.css'
 
 function TabContent(props) {
     if (props.activeTab == 0) {
@@ -10,13 +12,11 @@ function TabContent(props) {
             <h1>Portfolio</h1>
         </section>
     } else if (props.activeTab == 2) {
-        <section id="publishing">
-            <h1>Publicações</h1>
+        return <section id="publicacoes">
+            <Publications />
         </section>
     } else if (props.activeTab == 3) {
-        return <section id="blog">
-            <PostPreview />
-        </section>
+        return <PostPreview />
     }
 }
 

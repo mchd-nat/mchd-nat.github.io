@@ -7,6 +7,10 @@
   background-color: var(--black);
 }
 
+em {
+  color: var(--black) !important;
+}
+
 .header ul li button.active,
 .header ul li button:hover {
   border-color: var(--white);
@@ -24,9 +28,9 @@ section section.menu.links li a {
 
 section section.menu.links li a:hover, 
 .card h3, 
-.post h2.postDate, 
-em,
-.header ul li button {
+.post h2.postDate,
+.header ul li button,
+.card p {
   color: var(--black);
 }
 
@@ -43,6 +47,8 @@ em,
 }
 
 .card {
-  background-color: var(--black);
-  border-color: var(--white);
+  background-color: var(--black) !important;
+  border-color: var(--white) !important;
 }
+
+

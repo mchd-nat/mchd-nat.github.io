@@ -1,0 +1,31 @@
+section#publicacoes a.card {
+    background-color: var(--white);
+    width: 370px;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-color: var(--black);
+    border-width: 2px;
+    border-style: solid;
+    text-align: left;
+    margin: 0 20px;
+}
+
+section#publicacoes a.card h1 {
+    font-size: 25px;
+    height: 200px;
+}
+
+section#publicacoes a.card h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+section#publicacoes a.card p {
+    background-color: var(--yellow);
+    width: fit-content;
+    margin: 5px 0;
+    font-size: 15px;
+}
