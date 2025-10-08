@@ -37,6 +37,7 @@ section.menu.header div.tagButton button,
   color: var(--black);
 }
 
+div.post section.darkModeControl button,
 section.darkModeControl button {
   background-color: var(--white);
 }
