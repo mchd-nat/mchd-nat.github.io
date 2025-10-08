@@ -59,7 +59,7 @@ function App() {
                 rel="stylesheet"
                 type="text/css"
                 href={
-                  darkMode ? "public\\darkMode.css" : "public\\lightMode.css"
+                  darkMode ? "/public/darkMode.css" : "/public/lightMode.css"
                 }
               />
 
