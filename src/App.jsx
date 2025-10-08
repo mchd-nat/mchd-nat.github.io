@@ -59,7 +59,9 @@ function App() {
                 rel="stylesheet"
                 type="text/css"
                 href={
-                  darkMode ? "/public/darkMode.css" : "/public/lightMode.css"
+                  darkMode
+                    ? "https://natsmachado.github.io/natsmachado/darkMode.css"
+                    : "https://natsmachado.github.io/natsmachado/lightMode.css"
                 }
               />
 

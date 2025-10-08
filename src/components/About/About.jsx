@@ -29,14 +29,35 @@ function About() {
       </section>
       <section>
         <div className="languages">
-          <img src="dist\html5-plain.svg" alt="HTML5 logo" />
-          <img src="dist\css3-plain.svg" alt="CSS3 logo" />
-          <img src="dist\javascript-plain.svg" alt="JavaScript logo " />
-          <img src="dist\dart-plain.svg" alt="Dart logo" />
+          <img
+            src="https://natsmachado.github.io/natsmachado/html5-plain.svg"
+            alt="HTML5 logo"
+          />
+          <img
+            src="https://natsmachado.github.io/natsmachado/css3-plain.svg"
+            alt="CSS3 logo"
+          />
+          <img
+            src="https://natsmachado.github.io/natsmachado/javascript-plain.svg"
+            alt="JavaScript logo "
+          />
+          <img
+            src="https://natsmachado.github.io/natsmachado/dart-plain.svg"
+            alt="Dart logo"
+          />
           <div className="divider"></div>
-          <img src="dist\flutter-plain.svg" alt="Flutter logo" />
-          <img src="dist\vuejs-original.svg" alt="Vue.js logo" />
-          <img src="dist\react-original.svg" alt="React logo" />
+          <img
+            src="https://natsmachado.github.io/natsmachado/flutter-plain.svg"
+            alt="Flutter logo"
+          />
+          <img
+            src="https://natsmachado.github.io/natsmachado/vuejs-original.svg"
+            alt="Vue.js logo"
+          />
+          <img
+            src="https://natsmachado.github.io/natsmachado/react-original.svg"
+            alt="React logo"
+          />
         </div>
       </section>
     </section>
