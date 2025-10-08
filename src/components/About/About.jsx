@@ -16,15 +16,18 @@ function About() {
             </a>
           </li>
           <li>
-            <a href="" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/nat%C3%A1lia-s-518478243/"
+              target="_blank"
+            >
               LinkedIn
             </a>
           </li>
-          <li>
+          {/*<li>
             <a href="" target="_blank">
               Email
             </a>
-          </li>
+          </li>*/}
         </ul>
       </section>
       <section>
