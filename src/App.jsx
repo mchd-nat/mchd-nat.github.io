@@ -17,7 +17,10 @@ function App() {
   <Router>
     <Routes>
       <Route path="/" element={<PostPreview />} />
-      <Route path="/posts/:postTitle" element={<PostPage />} />
+      <Route
+        path="https://natsmachado.github.io/natsmachado/posts/:postTitle"
+        element={<PostPage />}
+      />
     </Routes>
   </Router>;
 
@@ -42,7 +45,10 @@ function App() {
   return (
     <Router basename="/">
       <Routes>
-        <Route path="/posts/:postTitle" element={<PostPage />} />
+        <Route
+          path="https://natsmachado.github.io/natsmachado/posts/:postTitle"
+          element={<PostPage />}
+        />
         <Route
           path="/"
           element={
