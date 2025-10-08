@@ -29,14 +29,14 @@ function About() {
       </section>
       <section>
         <div className="languages">
-          <img src="../../public/html5-plain.svg" alt="HTML5 logo" />
-          <img src="../../public/css3-plain.svg" alt="CSS3 logo" />
-          <img src="../../public/javascript-plain.svg" alt="JavaScript logo " />
-          <img src="../../public/dart-plain.svg" alt="Dart logo" />
+          <img src="/html5-plain.svg" alt="HTML5 logo" />
+          <img src="/css3-plain.svg" alt="CSS3 logo" />
+          <img src="/javascript-plain.svg" alt="JavaScript logo " />
+          <img src="/dart-plain.svg" alt="Dart logo" />
           <div className="divider"></div>
-          <img src="../../public/flutter-plain.svg" alt="Flutter logo" />
-          <img src="../../public/vuejs-original.svg" alt="Vue.js logo" />
-          <img src="../../public/react-original.svg" alt="React logo" />
+          <img src="/flutter-plain.svg" alt="Flutter logo" />
+          <img src="/vuejs-original.svg" alt="Vue.js logo" />
+          <img src="/react-original.svg" alt="React logo" />
         </div>
       </section>
     </section>

@@ -12,7 +12,7 @@ const blogPosts = [
 
 ㅤ
 
-Hoje, segunda-feira dia 7 de outubro de 2025, eu:
+Nessa segunda-feira, dia 6 de outubro de 2025, eu:
 
 ㅤ
 
@@ -44,7 +44,35 @@ Ainda há muito a ser ajustado para que esse sistema não simplesmente *funcione
 ㅤ
 
 Esse foi meu primeiro post, mas não tenho intenção nenhum de que seja o último. Até lá, boa noite!
-        `,
+    `,
+  },
+  {
+    id: Date.now().toString(),
+    title: "Pronta para o primeiro deploy!",
+    date: new Date().toLocaleDateString("pt-BR", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }),
+    blurb: "Hora de colocar esse sitezinho no ar.",
+    body: `Terça-feira, dia 7 de outubro, e agora temos a habilidade de traduzir o site para inglês (apesar de que isso não traduz nem as postagens nem os títulos das minhas publicações por enquanto) e alguns ajustes visuais para comportar o dropdown de idiomas. Na verdade, eu recebi muita ajuda de uma amiga fantástica que estuda design UI/UX. 
+
+ㅤ
+
+O que ainda falta?
+
+ㅤ
+
+- Tornar a transição entre páginas mais suave
+- Melhorar a organização do componente de ativar/desativar o modo escuro
+- Ajustar as partes do HTML que ainda não estão semânticas
+- Adicionar etiquetas ARIA ao HTML
+- Atualizar a responsividade para levar em consideração a nova organização dos componentes
+
+ㅤ
+
+Vou começar pela responsividade e seguir por aí. Se tudo der certo, esse site vai para o ar no GitHub Pages ainda hoje!
+    `,
   },
 ];
 
