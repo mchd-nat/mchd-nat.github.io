@@ -67,12 +67,12 @@ function App() {
                   index={0}
                   activeTab={activeTab}
                 />
-                <Tabs
+                {/*<Tabs
                   onClick={displayTab}
                   title={t("portfolio")}
                   index={1}
                   activeTab={activeTab}
-                />
+                />*/}
                 <Tabs
                   onClick={displayTab}
                   title={t("publications")}
