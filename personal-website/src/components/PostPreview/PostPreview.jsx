@@ -9,7 +9,9 @@ function PostPreview() {
         <a key={post.title} href={`/posts/${Slugify(post.title)}`}>
           <div key={post.id} className="card">
             <h2>{post.title}</h2>
-            <h3>{post.date}</h3>
+            <h3>
+              <span>{post.date}</span>
+            </h3>
             <p>{post.blurb}</p>
           </div>
         </a>

@@ -18,7 +18,7 @@ section section.menu.links li a {
 
 section section.menu.links li a:hover,
 .post h2.postDate,
-.card h3 {
+.card h3 span {
   color: var(--black);
 }
 
