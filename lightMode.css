@@ -1,0 +1,62 @@
+* {
+  color: var(--black);
+}
+
+.background,
+.content {
+  background-color: var(--white);
+}
+
+section.menu.header div.tagButton button {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+section section.menu.links li a {
+  color: var(--black);
+}
+
+section section.menu.links li a:hover,
+.post h2.postDate,
+.card h3 span {
+  color: var(--black);
+}
+
+section.menu.header div.tagButton button.active,
+section.menu.header div.tagButton button:hover {
+  border-color: var(--black);
+  color: var(--black);
+  background-color: transparent;
+}
+
+section.darkModeControl button {
+  background-color: var(--black);
+}
+
+#moon_icon {
+  display: block;
+  color: var(--white);
+}
+
+#sun_icon {
+  display: none;
+}
+
+.divider {
+  background-color: var(--black);
+}
+
+.card {
+  background-color: transparent;
+  border-color: var(--black);
+  color: var(--black);
+}
+
+.languageToggle select {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.card p span {
+  color: var(--black);
+}

@@ -1,0 +1,66 @@
+* {
+  color: var(--white);
+}
+
+::selection {
+  color: var(--black);
+}
+
+.background,
+.content {
+  background-color: var(--black);
+}
+
+em {
+  color: var(--black) !important;
+}
+
+section.menu.header div.tagButton button.active,
+section.menu.header div.tagButton button:hover {
+  border-color: var(--white);
+  color: var(--white);
+  background-color: transparent;
+}
+
+section.menu.header div.tagButton button {
+  background-color: var(--white);
+}
+
+section section.menu.links li a {
+  color: var(--white);
+}
+
+section section.menu.links li a:hover,
+.post h2.postDate,
+section.menu.header div.tagButton button,
+.card p span {
+  color: var(--black);
+}
+
+section.darkModeControl button {
+  background-color: var(--white);
+}
+
+#moon_icon {
+  display: none;
+}
+
+#sun_icon {
+  display: block;
+  color: var(--black);
+}
+
+.divider {
+  background-color: var(--white);
+}
+
+.card {
+  background-color: transparent;
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.languageToggle select {
+  background-color: var(--white);
+  color: var(--black);
+}
