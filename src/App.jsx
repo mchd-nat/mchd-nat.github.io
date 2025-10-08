@@ -57,7 +57,9 @@ function App() {
 
               <link
                 rel="stylesheet"
-                href={darkMode ? "/darkMode.css" : "/lightMode.css"}
+                href={
+                  darkMode ? "public\\darkMode.css" : "public\\lightMode.css"
+                }
               />
 
               <section className="menu header">

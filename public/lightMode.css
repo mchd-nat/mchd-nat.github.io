@@ -34,7 +34,7 @@ section.darkModeControl button {
 }
 
 #moon_icon {
-  display: block;
+  display: flex;
   color: var(--white);
 }
 

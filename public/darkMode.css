@@ -46,7 +46,7 @@ section.darkModeControl button {
 }
 
 #sun_icon {
-  display: block;
+  display: flex;
   color: var(--black);
 }
 
