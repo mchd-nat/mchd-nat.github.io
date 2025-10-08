@@ -40,7 +40,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/natsmachado">
       <Routes>
         <Route path="/posts/:postTitle" element={<PostPage />} />
         <Route
