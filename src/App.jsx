@@ -2,7 +2,7 @@ import "./styles/App.css";
 import TabContent from "./components/TabContent/TabContent.jsx";
 import Tabs from "./components/Tabs/Tabs.jsx";
 import { useState } from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PostPreview from "./components/PostPreview/PostPreview.jsx";
 import PostPage from "./components/PostPage/PostPage.jsx";
 import DarkModeToggle from "./components/DarkModeToggle/DarkModeToggle.jsx";
@@ -40,7 +40,7 @@ function App() {
   };
 
   return (
-    <Router basename="/">
+    <Router basename="/natsmachado/">
       <Routes>
         <Route path="/posts/:postTitle" element={<PostPage />} />
         <Route
@@ -57,6 +57,7 @@ function App() {
 
               <link
                 rel="stylesheet"
+                type="text/css"
                 href={
                   darkMode ? "public\\darkMode.css" : "public\\lightMode.css"
                 }
@@ -81,12 +82,12 @@ function App() {
                   index={2}
                   activeTab={activeTab}
                 />
-                <Tabs
+                {/*Tabs
                   onClick={displayTab}
                   title={t("blog")}
                   index={3}
                   activeTab={activeTab}
-                />
+                />*/}
               </section>
               <TabContent activeTab={activeTab} />
               <footer>

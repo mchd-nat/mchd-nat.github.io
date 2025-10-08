@@ -1,7 +1,5 @@
 import { useTranslation } from "react-i18next";
 import "./LanguageToggle.css";
-import "../../../public/lightMode.css";
-import "../../../public/darkMode.css";
 
 function LanguageToggle() {
   const { i18n } = useTranslation();

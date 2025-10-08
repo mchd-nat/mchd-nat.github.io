@@ -1,3 +1,4 @@
+div.section.darkModeControl,
 section.darkModeControl {
   width: 100%;
   display: flex;
@@ -5,6 +6,7 @@ section.darkModeControl {
   width: fit-content;
 }
 
+div.post section.darkModeControl button,
 section.darkModeControl button {
   padding: 10px;
   border-radius: 100%;

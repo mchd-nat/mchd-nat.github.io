@@ -37,7 +37,8 @@ function PostPage() {
 
       <link
         rel="stylesheet"
-        href={darkMode ? "/darkMode.css" : "/lightMode.css"}
+        type="text/css"
+        href={darkMode ? "public\\darkMode.css" : "public\\lightMode.css"}
       />
 
       <a href={`/`} className="goBack">

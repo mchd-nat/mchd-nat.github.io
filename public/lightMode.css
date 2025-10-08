@@ -29,6 +29,7 @@ section.menu.header div.tagButton button:hover {
   background-color: transparent;
 }
 
+div.post section.darkModeControl button,
 section.darkModeControl button {
   background-color: var(--black);
 }
