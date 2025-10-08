@@ -1,1 +1,1 @@
-Computer Science student trying to put her skills to good use.
+Computer Science student looking to put what she knows into practice.
