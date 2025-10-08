@@ -1,1 +1,1 @@
-Personal website created with HTML5, CSS3, JavaScript and React.
+Computer Science student trying to put her skills to good use.
