@@ -11,7 +11,7 @@ function About() {
       <section className="menu links">
         <ul>
           <li>
-            <a href="https://github.com/natsmachado" target="_blank">
+            <a href="https://github.com/nataliasilvamachado" target="_blank">
               GitHub
             </a>
           </li>
@@ -33,32 +33,32 @@ function About() {
       <section>
         <div className="languages">
           <img
-            src="https://natsmachado.github.io/natsmachado/html5-plain.svg"
+            src="https://nataliasilvamachado.github.io/nataliasilvamachado/html5-plain.svg"
             alt="HTML5 logo"
           />
           <img
-            src="https://natsmachado.github.io/natsmachado/css3-plain.svg"
+            src="https://nataliasilvamachado.github.io/nataliasilvamachado/css3-plain.svg"
             alt="CSS3 logo"
           />
           <img
-            src="https://natsmachado.github.io/natsmachado/javascript-plain.svg"
+            src="https://nataliasilvamachado.github.io/nataliasilvamachado/javascript-plain.svg"
             alt="JavaScript logo "
           />
           <img
-            src="https://natsmachado.github.io/natsmachado/dart-plain.svg"
+            src="https://nataliasilvamachado.github.io/nataliasilvamachado/dart-plain.svg"
             alt="Dart logo"
           />
           <div className="divider"></div>
           <img
-            src="https://natsmachado.github.io/natsmachado/flutter-plain.svg"
+            src="https://nataliasilvamachado.github.io/nataliasilvamachado/flutter-plain.svg"
             alt="Flutter logo"
           />
           <img
-            src="https://natsmachado.github.io/natsmachado/vuejs-original.svg"
+            src="https://nataliasilvamachado.github.io/nataliasilvamachado/vuejs-original.svg"
             alt="Vue.js logo"
           />
           <img
-            src="https://natsmachado.github.io/natsmachado/react-original.svg"
+            src="https://nataliasilvamachado.github.io/nataliasilvamachado/react-original.svg"
             alt="React logo"
           />
         </div>
