@@ -94,7 +94,7 @@ function App() {
               <TabContent activeTab={activeTab} />
               <footer>
                 <p className="copyright">
-                  Copyright © 2025 by Natália Silva Machado
+                  Built with ❤️ by Natália Silva Machado
                 </p>
                 <p className="copyright">Powered by React</p>
               </footer>
