@@ -2,7 +2,7 @@ import "./styles/App.css";
 import TabContent from "./components/TabContent/TabContent.jsx";
 import Tabs from "./components/Tabs/Tabs.jsx";
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import PostPreview from "./components/PostPreview/PostPreview.jsx";
 import PostPage from "./components/PostPage/PostPage.jsx";
 import DarkModeToggle from "./components/DarkModeToggle/DarkModeToggle.jsx";
@@ -40,7 +40,7 @@ function App() {
   };
 
   return (
-    <Router basename="/natsmachado">
+    <Router basename="/">
       <Routes>
         <Route path="/posts/:postTitle" element={<PostPage />} />
         <Route
