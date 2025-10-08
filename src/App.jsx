@@ -60,8 +60,8 @@ function App() {
                 type="text/css"
                 href={
                   darkMode
-                    ? "https://nataliasilvamachado.github.io/nataliasilvamachado/darkMode.css"
-                    : "https://nataliasilvamachado.github.io/nataliasilvamachado/lightMode.css"
+                    ? "https://mchd-nat.github.io/mchd-nat/darkMode.css"
+                    : "https://mchd-nat.github.io/mchd-nat/lightMode.css"
                 }
               />
 
