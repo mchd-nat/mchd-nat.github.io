@@ -14,13 +14,6 @@ import LanguageToggle from "./components/LanguageToggle/LanguageToggle.jsx";
 function App() {
   const { t } = useTranslation();
 
-  <Router>
-    <Routes>
-      <Route path="/" element={<PostPreview />} />
-      <Route path="/mchd-nat/posts/:postTitle" element={<PostPage />} />
-    </Routes>
-  </Router>;
-
   const [activeTab, setTabActive] = useState(0);
   const [darkMode, setDarkMode] = useState(() => {
     const stored = localStorage.getItem("darkMode");
@@ -60,8 +53,8 @@ function App() {
                 type="text/css"
                 href={
                   darkMode
-                    ? "https://mchd-nat.github.io/mchd-nat/darkMode.css"
-                    : "https://mchd-nat.github.io/mchd-nat/lightMode.css"
+                    ? "https://mchd-nat.github.io/darkMode.css"
+                    : "https://mchd-nat.github.io/lightMode.css"
                 }
               />
 
@@ -84,12 +77,12 @@ function App() {
                   index={2}
                   activeTab={activeTab}
                 />
-                {/*<Tabs
+                <Tabs
                   onClick={displayTab}
                   title={t("blog")}
                   index={3}
                   activeTab={activeTab}
-                />*/}
+                />
               </section>
               <TabContent activeTab={activeTab} />
               <footer>

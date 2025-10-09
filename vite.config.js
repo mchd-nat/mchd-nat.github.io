@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://mchd-nat.github.io/mchd-nat/",
+  base: "https://mchd-nat.github.io",
   plugins: [react()],
 });

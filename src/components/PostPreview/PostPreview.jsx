@@ -15,7 +15,7 @@ function PostPreview() {
               <h3>
                 <span>{post.date}</span>
               </h3>
-              <p>{post.body}</p>
+              <p>{post.body}a</p>
             </div>
           </a>
         ))}

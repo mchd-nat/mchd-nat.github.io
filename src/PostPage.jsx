@@ -40,8 +40,8 @@ function PostPage() {
         type="text/css"
         href={
           darkMode
-            ? "https://mchd-nat.github.io/mchd-nat/darkMode.css"
-            : "https://mchd-nat.github.io/mchd-nat/lightMode.css"
+            ? "https://mchd-nat.github.io/darkMode.css"
+            : "https://mchd-nat.github.io/lightMode.css"
         }
       />
 
