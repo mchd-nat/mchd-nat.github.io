@@ -51,12 +51,12 @@
 @media (max-width: 680px) {
   section#publicacoes a.card,
   a div.card {
-    width: 300px;
+    width: 450px;
   }
 
   section#publicacoes {
-    padding-top: 643px;
-    padding-bottom: 650px;
+    padding-top: 443px;
+    padding-bottom: 550px;
     overflow: hidden;
   }
 
@@ -64,6 +64,19 @@
     height: 20px;
     width: 20px;
     font-size: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  section#publicacoes a.card,
+  a div.card {
+    width: 300px;
+  }
+
+  section#publicacoes {
+    padding-top: 643px;
+    padding-bottom: 650px;
+    overflow: hidden;
   }
 }
 
@@ -103,11 +116,6 @@
     display: none;
   }
 
-  section#publicacoes a.card,
-  a div.card {
-    width: 200px;
-  }
-
   section#publicacoes a.card h1 {
     font-size: 18px;
   }
@@ -118,13 +126,26 @@
   }
 
   section#publicacoes {
-    padding-top: 588px;
+    padding-top: 397px;
     padding-bottom: 575px;
     overflow: hidden;
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 480px) {
+  section#publicacoes a.card,
+  a div.card {
+    width: 300px;
+  }
+
+  section#publicacoes {
+    padding-top: 397px;
+    padding-bottom: 575px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 460px) {
   .content.graph_effect section#about {
     width: 200px;
   }
@@ -136,6 +157,32 @@
   div.content.graph_effect section.darkModeControl {
     margin-top: -20px;
     margin-right: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  section#publicacoes a.card,
+  a div.card {
+    width: 250px;
+  }
+
+  section#publicacoes {
+    padding-top: 482px;
+    padding-bottom: 575px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 410px) {
+  section#publicacoes a.card,
+  a div.card {
+    width: 220px;
+  }
+
+  section#publicacoes {
+    padding-top: 530px;
+    padding-bottom: 575px;
+    overflow: hidden;
   }
 }
 
