@@ -84,12 +84,12 @@ function App() {
                   index={2}
                   activeTab={activeTab}
                 />
-                <Tabs
+                {/*<Tabs
                   onClick={displayTab}
                   title={t("blog")}
                   index={3}
                   activeTab={activeTab}
-                />
+                />*/}
               </section>
               <TabContent activeTab={activeTab} />
               <footer>
