@@ -9,7 +9,7 @@ function PostPreview() {
         .slice()
         .reverse()
         .map((post) => (
-          <a key={post.title} href={`/posts/${Slugify(post.title)}`}>
+          <a key={post.title} href={`/mchd-nat/posts/${Slugify(post.title)}`}>
             <div key={post.id} className="card">
               <h2>{post.title}</h2>
               <h3>
