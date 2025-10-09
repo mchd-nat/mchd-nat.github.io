@@ -3,7 +3,6 @@ const blogPosts = [
     id: Date.now().toString(),
     title: "Primeiro post",
     date: "7 de outubro de 2025",
-    blurb: "Sobre o que foi feito e o que ainda precisa ser feito.",
     body: `É meia-noite e meia, e eu estou morrendo de sono, mas não quero parar de acrescentar à esse site. Esse projeto me empolgou tanto e tem sido tão divertido de desenvolver! 
 
 ㅤ
@@ -46,7 +45,6 @@ Esse foi meu primeiro post, mas não tenho intenção nenhum de que seja o últi
     id: Date.now().toString(),
     title: "Pronto para o primeiro deploy",
     date: "7 de outubro de 2025",
-    blurb: "Ajustes visuais, tradução, e colocando o site no ar.",
     body: `Terça-feira, dia 7 de outubro, e agora temos a habilidade de traduzir o site para inglês (apesar de que isso não traduz nem as postagens nem os títulos das minhas publicações por enquanto) e alguns ajustes visuais para comportar o dropdown de idiomas. Na verdade, eu recebi muita ajuda de uma amiga fantástica que estuda design UI/UX. 
 
 ㅤ
@@ -69,8 +67,6 @@ Vou começar pela responsividade e seguir por aí. Se tudo der certo, esse site 
   {
     title: "Site no ar e mais uma listinha de afazeres",
     date: "8 de outubro de 2025",
-    blurb:
-      "No qual o deploy é feito, problemas aparecem, e soluções são buscadas.",
     body: `Acabei de fazer deploy do site no GitHub Pages (não sem alguns contratempos no caminho, mas tudo bem). Tive de comentar a aba de blog por enquanto, já que não consegui fazer a rota de *preview de post* para *post em si* funcionar, mas vou continuar trabalhando nisso por trás das cenas. Isso significa que essas postagens vão ficar escondidinhas por enquanto, mas também significa que o netizen que encontrar meu site vai ter bastante coisa para ler assim que elas forem ao ar hahaha.
 
 ㅤ
