@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import blogPosts from "../../blogPosts.jsx";
-import Slugify from "../../slugify.jsx";
+import blogPosts from "./blogPosts.jsx";
+import Slugify from "./slugify.jsx";
 import "./PostPage.css";
 import { marked } from "marked";
-import DarkModeToggle from "../DarkModeToggle/DarkModeToggle.jsx";
+import DarkModeToggle from "./components/DarkModeToggle/DarkModeToggle.jsx";
 import { useState } from "react";
 
 function PostPage() {

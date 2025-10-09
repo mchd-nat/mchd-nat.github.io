@@ -4,7 +4,7 @@ import Tabs from "./components/Tabs/Tabs.jsx";
 import { useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import PostPreview from "./components/PostPreview/PostPreview.jsx";
-import PostPage from "./components/PostPage/PostPage.jsx";
+import PostPage from "./PostPage.jsx";
 import DarkModeToggle from "./components/DarkModeToggle/DarkModeToggle.jsx";
 import "./styles/Responsive.css";
 import { useTranslation } from "react-i18next";
