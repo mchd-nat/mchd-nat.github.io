@@ -1,1 +1,1 @@
-Computer Science student looking to put what she knows into practice.
+ Personal website created with HTML5, CSS3, JavaScript and React. 
