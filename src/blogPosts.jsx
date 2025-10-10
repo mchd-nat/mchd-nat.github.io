@@ -2,7 +2,7 @@ const blogPosts = [
   {
     id: Date.now().toString(),
     title: "Primeiro post",
-    date: "7 de outubro de 2025",
+    date: "6 de outubro de 2025",
     body: `O projeto desse website tem side *extremamente* divertido de desenvolver! Nessa segunda-feira, dia 6 de outubro de 2025, eu:
 
 ㅤ
