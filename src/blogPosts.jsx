@@ -3,11 +3,7 @@ const blogPosts = [
     id: Date.now().toString(),
     title: "Primeiro post",
     date: "7 de outubro de 2025",
-    body: `É meia-noite e meia, e eu estou morrendo de sono, mas não quero parar de acrescentar à esse site. Esse projeto me empolgou tanto e tem sido tão divertido de desenvolver! 
-
-ㅤ
-
-Nessa segunda-feira, dia 6 de outubro de 2025, eu:
+    body: `O projeto desse website tem side *extremamente* divertido de desenvolver! Nessa segunda-feira, dia 6 de outubro de 2025, eu:
 
 ㅤ
 
@@ -25,9 +21,9 @@ O que ainda falta?
 
 ㅤ
 
-- Tanto coisa, meus amigos
+- Tanta coisa, meus amigos
 - Consertar um bug visual no botão de toggle do modo escuro
-- Fazer com que o site detecte se o navegador do usuário está no modo escuro e reagir de acordo
+- Fazer com que o site detecte se o navegador do usuário está no modo escuro e reaja de acordo
 - Salvar a preferência de tema do usário
 - Garantir responsividade
 - Adicionar itens às páginas de portfólio e de publicações
@@ -61,13 +57,13 @@ O que ainda falta?
 
 ㅤ
 
-Vou começar pela responsividade e seguir por aí. Se tudo der certo, esse site vai para o ar no GitHub Pages ainda hoje!
+Vou começar pela responsividade e seguir por aí. Se tudo der certo, esse site vai para o ar no GitHub Pages ainda hoje.
     `,
   },
   {
     title: "Site no ar e mais uma listinha de afazeres",
     date: "8 de outubro de 2025",
-    body: `Acabei de fazer deploy do site no GitHub Pages (não sem alguns contratempos no caminho, mas tudo bem). Tive de comentar a aba de blog por enquanto, já que não consegui fazer a rota de *preview de post* para *post em si* funcionar, mas vou continuar trabalhando nisso por trás das cenas. Isso significa que essas postagens vão ficar escondidinhas por enquanto, mas também significa que o netizen que encontrar meu site vai ter bastante coisa para ler assim que elas forem ao ar hahaha.
+    body: `Acabei de fazer deploy do site no GitHub Pages (não sem alguns contratempos no caminho, mas tudo bem). Tive de comentar a aba de blog por enquanto, já que não consegui fazer a rota de *preview do post* para o *post em si* funcionar, mas vou continuar trabalhando nisso por trás das cenas. Isso significa que essas postagens vão ficar escondidinhas por enquanto, mas também significa que o netizen que encontrar meu site vai ter bastante coisa para ler assim que elas forem ao ar hahaha.
 
 ㅤ
 
