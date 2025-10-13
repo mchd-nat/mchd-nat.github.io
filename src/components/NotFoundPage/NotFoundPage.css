@@ -1,0 +1,17 @@
+.content.graph_effect {
+  padding: 0;
+}
+
+div {
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 30px;
+  width: 550px;
+  word-wrap: normal;
+}
+
+a:hover {
+  color: var(--black);
+}

@@ -4,5 +4,7 @@
   "portfolio": "Portfolio",
   "publications": "Publications",
   "roles": "Front-end & mobile developer + Researcher",
-  "publisher": "Published at"
+  "publisher": "Published at",
+  "404 error": "It seems the page you're looking doesn't exist :.(",
+  "go to home": "Return to homepage"
 }

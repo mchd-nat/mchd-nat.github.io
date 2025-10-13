@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  background-color: var(--yellow);
+}
+
 .menu.header {
   list-style: none;
   display: flex;

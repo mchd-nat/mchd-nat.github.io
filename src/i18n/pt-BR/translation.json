@@ -4,5 +4,7 @@
   "portfolio": "Portfólio",
   "publications": "Publicações",
   "roles": "Desenvolvedora front-end & mobile + Pesquisadora",
-  "publisher": "Publicado em"
+  "publisher": "Publicado em",
+  "404 error": "Parece que a página que você está tentando encontrar não existe :.(",
+  "go to home": "Voltar à página inicial"
 }
