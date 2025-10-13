@@ -11,9 +11,11 @@ function NotFoundPage() {
   });
 
   return (
-    <div>
-      <h1>{t("404 error")}</h1>
-      <a href="/">{t("go to home")}</a>
+    <div className="not_found">
+      <h1 className="not_found">{t("404 error")}</h1>
+      <a className="not_found" href="/">
+        {t("go to home")}
+      </a>
     </div>
   );
 }

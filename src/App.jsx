@@ -10,6 +10,7 @@ import "./styles/Responsive.css";
 import { useTranslation } from "react-i18next";
 import "./i18n/i18n.jsx";
 import LanguageToggle from "./components/LanguageToggle/LanguageToggle.jsx";
+import NotFoundPage from "./components/NotFoundPage/NotFoundPage.jsx";
 
 function App() {
   const { t } = useTranslation();
@@ -35,7 +36,6 @@ function App() {
   return (
     <Router basename="/">
       <Routes>
-        <Route path="/mchd-nat/posts/:postTitle" element={<PostPage />} />
         <Route
           path="/"
           element={
@@ -94,6 +94,8 @@ function App() {
             </>
           }
         />
+        <Route path="/mchd-nat/posts/:postTitle" element={<PostPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>
   );

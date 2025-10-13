@@ -1,17 +1,13 @@
-.content.graph_effect {
-  padding: 0;
-}
-
-div {
+div.not_found {
   margin: auto;
 }
 
-h1 {
+h1.not_found {
   margin-bottom: 30px;
   width: 550px;
   word-wrap: normal;
 }
 
-a:hover {
+a.not_found:hover {
   color: var(--black);
 }
