@@ -17,6 +17,13 @@ function App() {
 
   const [activeTab, setTabActive] = useState(0);
   const [darkMode, setDarkMode] = useState(() => {
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", (event) => {
+        const colorScheme = event.matches ? "dark" : "light";
+        setDarkMode(colorScheme);
+      });
+
     const stored = localStorage.getItem("darkMode");
     return stored === "true";
   });
