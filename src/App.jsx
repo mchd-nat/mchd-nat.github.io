@@ -1,7 +1,7 @@
 import "./styles/App.css";
 import TabContent from "./components/TabContent/TabContent.jsx";
 import Tabs from "./components/Tabs/Tabs.jsx";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import PostPreview from "./components/PostPreview/PostPreview.jsx";
 import PostPage from "./PostPage.jsx";
@@ -17,13 +17,6 @@ function App() {
 
   const [activeTab, setTabActive] = useState(0);
   const [darkMode, setDarkMode] = useState(() => {
-    window
-      .matchMedia("(prefers-color-scheme: dark)")
-      .addEventListener("change", (event) => {
-        const colorScheme = event.matches ? "dark" : "light";
-        setDarkMode(colorScheme);
-      });
-
     const stored = localStorage.getItem("darkMode");
     return stored === "true";
   });
@@ -39,6 +32,16 @@ function App() {
       return newValue;
     });
   };
+
+  useEffect(() => {
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", (event) => {
+        const colorScheme = event.matches;
+        setDarkMode(colorScheme);
+        console.log(colorScheme);
+      });
+  });
 
   return (
     <Router basename="/">
