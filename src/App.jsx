@@ -96,7 +96,7 @@ function App() {
               <TabContent activeTab={activeTab} />
               <footer>
                 <p className="copyright">
-                  Built with ❤️ by Natália Silva Machado <small>v1.0</small>
+                  Built with ❤️ by Natália Silva Machado
                 </p>
                 <p className="copyright">Powered by React</p>
               </footer>
