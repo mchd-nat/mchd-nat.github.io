@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next";
 import "./LanguageToggle.css";
+import i18n from "../../i18n/i18n";
 
 function LanguageToggle() {
-  const { i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const handleLanguageChange = (e) => {
     i18n.changeLanguage(e.target.value);
@@ -11,8 +12,10 @@ function LanguageToggle() {
   return (
     <div className="languageToggle">
       <select
-        id="language-select"
-        value={i18n.language}
+        id="language_select"
+        aria-label={t("select language")}
+        name="language_select"
+        value={t.language}
         onChange={handleLanguageChange}
       >
         <option value="br">PT-BR</option>

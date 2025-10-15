@@ -6,5 +6,7 @@
   "roles": "Desenvolvedora front-end & mobile + Pesquisadora",
   "publisher": "Publicado em",
   "404 error": "Parece que a página que você está tentando encontrar não existe :.(",
-  "go to home": "Voltar à página inicial"
+  "go to home": "Voltar à página inicial",
+  "select language": "Selecione em qual idioma o site será exibido",
+  "toggle mode": "Alternar entre modo claro e escuro"
 }

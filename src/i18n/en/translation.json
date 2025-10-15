@@ -6,5 +6,7 @@
   "roles": "Front-end & mobile developer + Researcher",
   "publisher": "Published at",
   "404 error": "It seems the page you're looking doesn't exist :.(",
-  "go to home": "Return to homepage"
+  "go to home": "Return to homepage",
+  "select language": "Select what language to present the website in",
+  "toggle mode": "Toggle between light and dark mode"
 }

@@ -39,7 +39,6 @@ function App() {
       .addEventListener("change", (event) => {
         const colorScheme = event.matches;
         setDarkMode(colorScheme);
-        console.log(colorScheme);
       });
   });
 

@@ -1,9 +1,12 @@
 import "./DarkModeToggle.css";
+import { useTranslation } from "react-i18next";
 
 function DarkModeToggle({ darkMode, toggleDarkMode }) {
+  const { t } = useTranslation();
+
   return (
     <section className="darkModeControl">
-      <button onClick={toggleDarkMode}>
+      <button aria-label={t("toggle mode")} onClick={toggleDarkMode}>
         {!darkMode ? (
           <i id="moon_icon" className="iconsax" icon-name="moon"></i>
         ) : (
