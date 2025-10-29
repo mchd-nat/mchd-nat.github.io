@@ -27,3 +27,12 @@ section#publicacoes a.card p span {
   margin: 5px 0;
   font-size: 15px;
 }
+
+section#publicacoes a.card p span:hover {
+  background-color: var(--black);
+  color: var(--yellow);
+}
+
+section#publicacoes a.card:hover {
+  background-color: transparent !important;
+}

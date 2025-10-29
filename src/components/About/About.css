@@ -17,6 +17,7 @@ section section.menu.links ul li {
 
 section section.menu.links ul li a:hover {
   background-color: var(--yellow);
+  color: var(--black);
 }
 
 section div.divider {
