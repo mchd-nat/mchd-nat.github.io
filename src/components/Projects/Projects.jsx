@@ -6,7 +6,11 @@ function Projects() {
 
   return (
     <>
-      <a href="#" target="_blank" className="card">
+      <a
+        href="https://data-sniffingcaramelo.onrender.com/"
+        target="_blank"
+        className="card"
+      >
         <h1>Data-Sniffing Caramelo</h1>
         <h2>{t("project 1 blurb")}</h2>
         <div className="languages">
