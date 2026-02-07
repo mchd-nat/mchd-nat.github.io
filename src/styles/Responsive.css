@@ -1,5 +1,6 @@
 @media (max-width: 1240px) {
-  section#publicacoes {
+  section#publicacoes,
+  section#projects {
     flex-direction: column;
     margin: auto;
     margin-top: 0px;
@@ -8,7 +9,12 @@
     overflow: hidden;
   }
 
-  section#publicacoes a.card {
+  section#projects {
+    padding-top: 0;
+  }
+
+  section#publicacoes a.card,
+  section#projects a.card {
     width: 540px;
     height: fit-content;
     margin-top: 0px;
@@ -18,7 +24,10 @@
 
   section#publicacoes a.card h1,
   section#publicacoes a.card h2,
-  section#publicacoes a.card p span {
+  section#publicacoes a.card p span,
+  section#projects a.card h1,
+  section#projects a.card h2,
+  section#projects a.card p span {
     height: fit-content;
   }
 }
@@ -50,14 +59,20 @@
 
 @media (max-width: 680px) {
   section#publicacoes a.card,
-  a div.card {
+  a div.card,
+  section#projects a.card {
     width: 450px;
   }
 
-  section#publicacoes {
+  section#publicacoes,
+  section#projects {
     padding-top: 443px;
     padding-bottom: 550px;
     overflow: hidden;
+  }
+
+  section#projects {
+    padding-top: 0;
   }
 
   section.menu.header div.tagButton button {
@@ -69,14 +84,20 @@
 
 @media (max-width: 600px) {
   section#publicacoes a.card,
-  a div.card {
+  a div.card,
+  section#projects a.card {
     width: 300px;
   }
 
-  section#publicacoes {
+  section#publicacoes,
+  section#projects {
     padding-top: 643px;
     padding-bottom: 650px;
     overflow: hidden;
+  }
+
+  section#projects {
+    padding-top: 0;
   }
 }
 
@@ -85,6 +106,10 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+  }
+
+  section#projects {
+    padding-top: 0;
   }
 }
 
@@ -116,32 +141,46 @@
     display: none;
   }
 
-  section#publicacoes a.card h1 {
+  section#publicacoes a.card h1,
+  section#projects a.card h1 {
     font-size: 18px;
   }
 
   section#publicacoes a.card h2,
-  section#publicacoes a.card p span {
+  section#publicacoes a.card p span,
+  section#projects a.card h2,
+  section#projects a.card p span {
     font-size: 12px;
   }
 
-  section#publicacoes {
+  section#publicacoes,
+  section#projects {
     padding-top: 397px;
     padding-bottom: 575px;
     overflow: hidden;
+  }
+
+  section#projects {
+    padding-top: 0;
   }
 }
 
 @media (max-width: 480px) {
   section#publicacoes a.card,
-  a div.card {
+  a div.card,
+  section#projects a.card {
     width: 300px;
   }
 
-  section#publicacoes {
+  section#publicacoes,
+  section#projects {
     padding-top: 397px;
     padding-bottom: 575px;
     overflow: hidden;
+  }
+
+  section#projects {
+    padding-top: 0;
   }
 }
 
@@ -162,27 +201,39 @@
 
 @media (max-width: 450px) {
   section#publicacoes a.card,
-  a div.card {
+  a div.card,
+  section#projects a.card {
     width: 250px;
   }
 
-  section#publicacoes {
+  section#publicacoes,
+  section#projects {
     padding-top: 482px;
     padding-bottom: 575px;
     overflow: hidden;
+  }
+
+  section#projects {
+    padding-top: 0;
   }
 }
 
 @media (max-width: 410px) {
   section#publicacoes a.card,
-  a div.card {
+  a div.card,
+  section#projects a.card {
     width: 220px;
   }
 
-  section#publicacoes {
+  section#publicacoes,
+  section#projects {
     padding-top: 530px;
     padding-bottom: 575px;
     overflow: hidden;
+  }
+
+  section#projects {
+    padding-top: 0;
   }
 }
 
