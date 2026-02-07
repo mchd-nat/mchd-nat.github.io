@@ -2,11 +2,13 @@
   "about": "Sobre",
   "blog": "Blog",
   "portfolio": "Portfólio",
+  "projects": "Projetos",
   "publications": "Publicações",
   "roles": "Desenvolvedora front-end & mobile + Pesquisadora",
   "publisher": "Publicado em",
   "404 error": "Parece que a página que você está tentando encontrar não existe :.(",
   "go to home": "Voltar à página inicial",
   "select language": "Selecione em qual idioma o site será exibido",
-  "toggle mode": "Alternar entre modo claro e escuro"
+  "toggle mode": "Alternar entre modo claro e escuro",
+  "project 1 blurb": "Ferramenta de auditoria de conformidade com a Lei Geral de Proteção de Dados"
 }

@@ -2,11 +2,13 @@
   "about": "About",
   "blog": "Blog",
   "portfolio": "Portfolio",
+  "projects": "Projects",
   "publications": "Publications",
   "roles": "Front-end & mobile developer + Researcher",
   "publisher": "Published at",
   "404 error": "It seems the page you're looking doesn't exist :.(",
   "go to home": "Return to homepage",
   "select language": "Select what language to present the website in",
-  "toggle mode": "Toggle between light and dark mode"
+  "toggle mode": "Toggle between light and dark mode",
+  "project 1 blurb": "Brazilian General Data Protection Law conformity auditing tool"
 }

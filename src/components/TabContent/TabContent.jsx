@@ -1,6 +1,7 @@
 import "../../styles/App.css";
 import About from "../About/About.jsx";
 import PostPreview from "../PostPreview/PostPreview.jsx";
+import Projects from "../Projects/Projects.jsx";
 import Publications from "../Publications/Publications.jsx";
 import "./TabContent.css";
 
@@ -9,8 +10,8 @@ function TabContent(props) {
     return <About />;
   } else if (props.activeTab == 1) {
     return (
-      <section id="portfolio">
-        <h1>Portfolio</h1>
+      <section id="projects">
+        <Projects />
       </section>
     );
   } else if (props.activeTab == 2) {
