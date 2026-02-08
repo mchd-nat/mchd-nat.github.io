@@ -1,8 +1,14 @@
 import "./About.css";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
 
 function About() {
   const { t } = useTranslation();
+
+  const darkMode = useState(() => {
+    const stored = localStorage.getItem("darkMode");
+    return stored === "true";
+  });
 
   return (
     <section id="about">
@@ -23,11 +29,6 @@ function About() {
               LinkedIn
             </a>
           </li>
-          {/*<li>
-            <a href="" target="_blank">
-              Email
-            </a>
-          </li>*/}
         </ul>
       </section>
       <section>
@@ -47,6 +48,14 @@ function About() {
           <img
             src="https://mchd-nat.github.io/dart-plain.svg"
             alt="Dart logo"
+          />
+          <img
+            src={
+              darkMode
+                ? "https://mchd-nat.github.io/rust-white.svg"
+                : "https://mchd-nat.github.io/rust.svg"
+            }
+            alt="Rust logo"
           />
           <div className="divider"></div>
           <img
