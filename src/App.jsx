@@ -3,7 +3,6 @@ import TabContent from "./components/TabContent/TabContent.jsx";
 import Tabs from "./components/Tabs/Tabs.jsx";
 import { useEffect, useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import PostPreview from "./components/PostPreview/PostPreview.jsx";
 import PostPage from "./PostPage.jsx";
 import DarkModeToggle from "./components/DarkModeToggle/DarkModeToggle.jsx";
 import "./styles/Responsive.css";
