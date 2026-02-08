@@ -1,23 +1,8 @@
 import "./About.css";
 import { useTranslation } from "react-i18next";
-import { useEffect, useState } from "react";
 
 function About() {
   const { t } = useTranslation();
-
-  const [darkMode, setDarkMode] = useState(() => {
-    const stored = localStorage.getItem("darkMode");
-    return stored === "true";
-  });
-
-  useEffect(() => {
-    window
-      .matchMedia("(prefers-color-scheme: dark)")
-      .addEventListener("change", (event) => {
-        const colorScheme = event.matches;
-        setDarkMode(colorScheme);
-      });
-  });
 
   return (
     <section id="about">
@@ -58,14 +43,7 @@ function About() {
             src="https://mchd-nat.github.io/dart-plain.svg"
             alt="Dart logo"
           />
-          <img
-            src={
-              darkMode
-                ? "https://mchd-nat.github.io/rust-white.svg"
-                : "https://mchd-nat.github.io/rust.svg"
-            }
-            alt="Rust logo"
-          />
+          <img src="https://mchd-nat.github.io/rust.svg" alt="Rust logo" />
           <div className="divider"></div>
           <img
             src="https://mchd-nat.github.io/flutter-plain.svg"
