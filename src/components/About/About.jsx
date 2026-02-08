@@ -1,13 +1,22 @@
 import "./About.css";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function About() {
   const { t } = useTranslation();
 
-  const darkMode = useState(() => {
+  const [darkMode, setDarkMode] = useState(() => {
     const stored = localStorage.getItem("darkMode");
     return stored === "true";
+  });
+
+  useEffect(() => {
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", (event) => {
+        const colorScheme = event.matches;
+        setDarkMode(colorScheme);
+      });
   });
 
   return (
